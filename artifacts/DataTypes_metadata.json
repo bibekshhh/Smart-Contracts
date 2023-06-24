@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maxInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"dataTypes.sol": "DataTypes"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"dataTypes.sol": {
+			"keccak256": "0x5670d3def5446284edfc345762508904f2eedc652a3516bdfa1beebf8037c856",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66190e4576cbc0ce8212c2d0a886acae3171810585380c57d6d4e5fb1102c451",
+				"dweb:/ipfs/QmfPe1JPpe2j9oC1YKXZKLELbEHp9spzuGEFdeHgtuyNPd"
+			]
+		}
+	},
+	"version": 1
+}

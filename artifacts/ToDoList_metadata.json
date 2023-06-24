@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getTodo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "toggleCompleted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_newText",
+						"type": "string"
+					}
+				],
+				"name": "updateText",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ToDoList.sol": "ToDoList"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ToDoList.sol": {
+			"keccak256": "0x5bb0f71e6984f45729fde10fc4d17c75df106b3303c53789258a67949e45524d",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://2f60b3f28c7e807f4a321922ddb8bd870f95b81358981f2e875ba79beaa22600",
+				"dweb:/ipfs/QmNXoFcuD6rmZPnzze8YG1UqztzJgYzPpnWuP49AcgMmPS"
+			]
+		}
+	},
+	"version": 1
+}
